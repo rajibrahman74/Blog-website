@@ -38,7 +38,6 @@ body {
     font-size: 15px;
     font-style: normal;
     text-align: justify;
-    
 }
 .common-content-div span {
     display: flex;
@@ -224,4 +223,61 @@ footer {
 }
 .footer-icon ul li  {
     margin-left: 15px;
+}
+
+
+
+/* Post page style start */
+        /* Post page style start */
+
+.top-img-section {
+    display: flex;
+    flex-direction: column;
+}
+.top-img-section img {
+    width: 100%;
+    height: 83vh;
+}
+
+.top-img-section-content h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 54px;
+}
+.top-img-section-content span {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.top-img-section-content > span > h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.top-img-section-content > span > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/* Devider style start/ */
+ hr.solid {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+ }
+
+
+ /* Article section style start */
+
+ article {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+ }
+ article p {
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    text-align: justify;
+    margin-bottom: 3rem;
 }
